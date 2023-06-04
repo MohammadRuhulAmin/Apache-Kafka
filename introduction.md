@@ -22,23 +22,23 @@ It has two type.
 can be distributed in equally or randomly.
 
 What is Messaging System ? 
+# Records , Data and messages these three are same in messaging System!
 =>
 A messaging system is responsible for transferring data from one application to another so the applications can focus on data without getting bogged down on data transmission and sharing.
 
 it is two type :
 a. point to point messaging system 
-    i.messages are parsed in queue
-    ii.A perticular message can be consumed by a maximum of one receiver only
-    iii.There is no time dependency laid for the reveiver to receive the message
-    iv.When the receiver receives the message, it will send an acknoledgement back to the Sender.
+    *messages are parsed in queue
+    *A perticular message can be consumed by a maximum of one receiver only
+    *There is no time dependency laid for the reveiver to receive the message
+    *When the receiver receives the message, it will send an acknoledgement back to the Sender.
 b. public subscribe messaging 
 system:
-    i.Messages are persisted in a Topic
-    ii.A particular message can be consumed by any number of consumers.
-    iii.There is a time dependency laid for the consumer to consume the message.
-    iv. when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.
+    *Messages are persisted in a Topic
+    *A particular message can be consumed by any number of consumers.
+    *There is a time dependency laid for the consumer to consume the message.
+    *when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.
 
 
 
 
-# Records , Data and messages these three are same in messaging System!
