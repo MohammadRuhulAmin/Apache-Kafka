@@ -21,6 +21,8 @@ It has two type.
 2.When we break the entity and store it to different location part by part means the whole data
 can be distributed in equally or randomly.
 
+---
+
 What is Messaging System ? 
 # Records , Data and messages these three are same in messaging System!
 =>
@@ -39,6 +41,6 @@ system:
     * There is a time dependency laid for the consumer to consume the message.  
     * when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.  
 
-
+---
 
 
