@@ -1,0 +1,117 @@
+# Apache Kafka
+__What is Apache kafka ?__    
+=> Apache kafka is a distributed message streaming platform that uses publish and 
+subscribe mechanism to stream the records.It is orginally developed by Linkedin and later doneted to Kafka Foundation. It is opensource and used by many tech jiant company like linkedin , walmart,Netflix,uber,airbnb etc.
+
+---
+
+__What is stream ?__   
+=> it means flow of data
+
+---
+
+__what is record ?__   
+=> According to kafka it is Data.
+
+---
+
+__What is centralized database ?__   
+=> Where all the data will be stored in one place. if database gets affected, all the data will be 
+lost .
+
+---
+
+__What is distributed database?__   
+=> instead of loading one database , the data will be stored in multiple locations.If one database gets
+affected , other data base will remain safe.  
+
+It has two type.  
+1.When we copy the full Entity to the multiple location , we consider it as replication  
+2.When we break the entity and store it to different location part by part means the whole data  
+can be distributed in equally or randomly.
+
+---
+
+__What is Messaging System ?__   
+ _Records , Data and messages these three are same in messaging System!_
+=>A messaging system is responsible for transferring data from one application to another so the applications can focus on data without getting bogged down on data transmission and sharing.  
+
+it is two type :  
+a. point to point messaging system  
+    *messages are parsed in queue  
+    * A perticular message can be consumed by a maximum of one receiver only  
+    * There is no time dependency laid for the reveiver to receive the message  
+    * When the receiver receives the message, it will send an acknoledgement back to the Sender.  
+b. public subscribe messaging  
+system:
+    * Messages are persisted in a Topic  
+    * A particular message can be consumed by any number of consumers.  
+    * There is a time dependency laid for the consumer to consume the message.  
+    * when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.  
+
+---
+
+__What is Topic ?__    
+=>Topic is like a queue with some additional featers!messages doesnot delete in topic.The subscriber can get 
+the messages from the topic when they need in a limited time interval.Kafka is a public subscribe messaging 
+system.
+
+---# Apache Kafka
+__What is Apache kafka ?__    
+=> Apache kafka is a distributed message streaming platform that uses publish and 
+subscribe mechanism to stream the records.It is orginally developed by Linkedin and later doneted to Kafka Foundation. It is opensource and used by many tech jiant company like linkedin , walmart,Netflix,uber,airbnb etc.
+
+---
+
+__What is stream ?__   
+=> it means flow of data
+
+---
+
+__what is record ?__   
+=> According to kafka it is Data.
+
+---
+
+__What is centralized database ?__   
+=> Where all the data will be stored in one place. if database gets affected, all the data will be 
+lost .
+
+---
+
+__What is distributed database?__   
+=> instead of loading one database , the data will be stored in multiple locations.If one database gets
+affected , other data base will remain safe.  
+
+It has two type.  
+1.When we copy the full Entity to the multiple location , we consider it as replication  
+2.When we break the entity and store it to different location part by part means the whole data  
+can be distributed in equally or randomly.
+
+---
+
+__What is Messaging System ?__   
+ _Records , Data and messages these three are same in messaging System!_
+=>A messaging system is responsible for transferring data from one application to another so the applications can focus on data without getting bogged down on data transmission and sharing.  
+
+it is two type :  
+a. point to point messaging system  
+    *messages are parsed in queue  
+    * A perticular message can be consumed by a maximum of one receiver only  
+    * There is no time dependency laid for the reveiver to receive the message  
+    * When the receiver receives the message, it will send an acknoledgement back to the Sender.  
+b. public subscribe messaging  
+system:
+    * Messages are persisted in a Topic  
+    * A particular message can be consumed by any number of consumers.  
+    * There is a time dependency laid for the consumer to consume the message.  
+    * when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.  
+
+---
+
+__What is Topic ?__    
+=>Topic is like a queue with some additional featers!messages doesnot delete in topic.The subscriber can get 
+the messages from the topic when they need in a limited time interval.Kafka is a public subscribe messaging 
+system.
+
+---
