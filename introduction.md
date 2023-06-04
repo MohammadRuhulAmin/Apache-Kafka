@@ -1,27 +1,27 @@
 # Apache Kafka
-__What is Apache kafka ?__  
+__What is Apache kafka ?__    
 => Apache kafka is a distributed message streaming platform that uses publish and 
 subscribe mechanism to stream the records.It is orginally developed by Linkedin and later doneted to Kafka Foundation. It is opensource and used by many tech jiant company like linkedin , walmart,Netflix,uber,airbnb etc.
 
 ---
 
-__What is stream ?__ 
+__What is stream ?__   
 => it means flow of data
 
 ---
 
-__what is record ?__ 
+__what is record ?__   
 => According to kafka it is Data.
 
 ---
 
-__What is centralized database ?__ 
+__What is centralized database ?__   
 => Where all the data will be stored in one place. if database gets affected, all the data will be 
 lost .
 
 ---
 
-__What is distributed database?__ 
+__What is distributed database?__   
 => instead of loading one database , the data will be stored in multiple locations.If one database gets
 affected , other data base will remain safe.  
 
@@ -32,7 +32,7 @@ can be distributed in equally or randomly.
 
 ---
 
-__What is Messaging System ?__ 
+__What is Messaging System ?__   
  _Records , Data and messages these three are same in messaging System!_
 =>A messaging system is responsible for transferring data from one application to another so the applications can focus on data without getting bogged down on data transmission and sharing.  
 
@@ -51,7 +51,7 @@ system:
 
 ---
 
-__What is Topic ?__  
+__What is Topic ?__    
 =>Topic is like a queue with some additional featers!messages doesnot delete in topic.The subscriber can get 
 the messages from the topic when they need in a limited time interval.Kafka is a public subscribe messaging 
 system.
