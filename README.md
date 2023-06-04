@@ -148,6 +148,20 @@ Also there will be some consumer application . They will consume the messages fr
 There will be consumer group.Each consumer application is assigned inside a consumer Group.
 
 
+---
+
+__Describe zookeeper__  
+=>Zookeeper cluster mainly manages kafka cluster and coordinate with each broker. As we have already
+mentioned broker is a software that processes topics.It keeps all the metadata in a key value pairs.
+Metadata includes:  
+1.Configuration information  
+2.Health Status of each broker  
+
+A set of zookeepers nodes working 
+together to manage other distributed systems is known as 
+Zookeeper cluster or "Zookeeper Ensemble"
+
+
 
 
 
