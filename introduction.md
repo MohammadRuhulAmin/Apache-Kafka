@@ -24,7 +24,7 @@ can be distributed in equally or randomly.
 ---
 
 What is Messaging System ? 
-# Records , Data and messages these three are same in messaging System!
+### Records , Data and messages these three are same in messaging System!
 =>
 A messaging system is responsible for transferring data from one application to another so the applications can focus on data without getting bogged down on data transmission and sharing.
 
