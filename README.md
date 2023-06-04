@@ -112,6 +112,26 @@ system:
 __What is Topic ?__    
 =>Topic is like a queue with some additional featers!messages doesnot delete in topic.The subscriber can get 
 the messages from the topic when they need in a limited time interval.Kafka is a public subscribe messaging 
-system.
+system. _A stream of messages belonging to a perticular catagory called Topic, similar to a table in a database
+the unique identifier of a topic is it's Name. We can create topic as many as we want!_  
+Topic Has two categories.  
+1. Partision 
+2. Replication
+
+
 
 ---
+# Kafka Architecture
+
+__Describe Kafka Architecture__  
+=>Kafka Cluster is made of some broker.inside a broker there are some topics.Topics are splitted into some
+partisions.Kafka cluster is managed by zookeeper cluster. the zookeeper cluster has some zookeeper nodes.  
+    
+    There will be some procuder applications. Some producer may produce  messages to topic level and some may 
+produce message in pertision level.
+
+    Also there will be some consumer application . They will consume the messages from topic level or pertision level.There will be consumer group.Each consumer application is assigned inside a consumer Group.
+
+
+
+
