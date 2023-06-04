@@ -29,15 +29,15 @@ A messaging system is responsible for transferring data from one application to 
 it is two type :
 a. point to point messaging system 
     *messages are parsed in queue
-    * A perticular message can be consumed by a maximum of one receiver only
-    * There is no time dependency laid for the reveiver to receive the message
-    * When the receiver receives the message, it will send an acknoledgement back to the Sender.
-b. public subscribe messaging 
+    * A perticular message can be consumed by a maximum of one receiver only  
+    * There is no time dependency laid for the reveiver to receive the message  
+    * When the receiver receives the message, it will send an acknoledgement back to the Sender.  
+b. public subscribe messaging  
 system:
-    * Messages are persisted in a Topic
-    * A particular message can be consumed by any number of consumers.
-    * There is a time dependency laid for the consumer to consume the message.
-    * when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.
+    * Messages are persisted in a Topic  
+    * A particular message can be consumed by any number of consumers.  
+    * There is a time dependency laid for the consumer to consume the message.  
+    * when the subscriber receives the message, it doesnt send an acknoledgement to the publisher.  
 
 
 
