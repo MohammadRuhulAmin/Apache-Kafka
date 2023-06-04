@@ -115,9 +115,23 @@ the messages from the topic when they need in a limited time interval.Kafka is a
 system. _A stream of messages belonging to a perticular catagory called Topic, similar to a table in a database
 the unique identifier of a topic is it's Name. We can create topic as many as we want!_  
 Topic Has two categories.  
-1. Partision 
-2. Replication
+1. Partision  
+    (All the messages are splitted in to partision. it is ordered and immutable. Each partision has unique id name offset) Producer application will produce messages in Partision and the consumer will get messages
+    from pertision.
+2. Replication  
+    (It is backup of partision).Producer application will never write messages to replica and the consumer
+    will never get messsages from replica.replica can never read or write data
 
+---
+
+__What is Broker ?__  
+=> Broker is a software process who manage the topics.Broker can track the information that which consumer
+application has access the amount message from which topic from a pertision!Broker is also known as
+kafka server.
+
+__What is Kafka Cluster ?__  
+=>A set of brokers who are communicating with eachother to perform the management and maintance task are 
+collectively known as kafka cluster. 
 
 
 ---
@@ -132,6 +146,8 @@ produce message in pertision level.
 
 Also there will be some consumer application . They will consume the messages from topic level or pertision level.  
 There will be consumer group.Each consumer application is assigned inside a consumer Group.
+
+
 
 
 
