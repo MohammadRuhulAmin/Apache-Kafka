@@ -43,3 +43,11 @@
 	<li>cmd : bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic myTopic --from-beginning </li>
 </ul>
 
+
+<h3>How to create consumer group ? </h3>
+<p>we will use kafka-console-consumer-groups.sh script</p>
+<ul>
+	<li>cmd : bin/kafka-console-consumer-groups.sh --bootstrap-server localhost:9092 --list </li>
+	<li>describe:bin/kafka-console-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group console-consumer-65487 </li>
+</ul>
+
