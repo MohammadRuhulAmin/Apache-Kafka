@@ -26,9 +26,6 @@
 	<li>creating topic : bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic myTopic --partitions 1 -- replication-factor 1</li>
 	<li>to see topic list : bin/kafka-topics.sh --bootstrap-server localhost:9092 --list</li>
 	<li>to know details about a topic : bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic myTopic</li>
-	<li></li>
-	<li></li>
-	<li></li>
 	
 </ul>
 
