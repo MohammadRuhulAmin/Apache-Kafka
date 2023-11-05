@@ -26,6 +26,20 @@
 	<li>creating topic : bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic myTopic --partitions 1 -- replication-factor 1</li>
 	<li>to see topic list : bin/kafka-topics.sh --bootstrap-server localhost:9092 --list</li>
 	<li>to know details about a topic : bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic myTopic</li>
-	
+</ul>
+
+<h3>How to create Producer ? </h3>
+<p>we will use kafka-console-producer.sh script</p>
+<ul>
+	<li>cmd : bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic myTopic </li>
+
+</ul>
+
+
+
+<h3>How to create consumer ? </h3>
+<p>we will use kafka-console-consumer.sh script</p>
+<ul>
+	<li>cmd : bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic myTopic --from-beginning </li>
 </ul>
 
