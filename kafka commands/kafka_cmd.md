@@ -6,7 +6,6 @@
 	<li>step 4: <b>getting all the commands :</b>  bin/zkServer.sh  </li>
 	<li>step 5: bin/zkServer.sh start-foreground  (it will execute infornt of terminal) </li>
 	<li>step 6: to stop zookeeper server : bin/zkServer.sh stop </li>
-
 </ul>
 
 
@@ -19,5 +18,17 @@
 	<li>step 5: listeners=PLAINTEXT://localhost:9092 </li>
 	<li>step 6: to check if kafka is running or not using zookeeper : echo dump | nc | localhost 2181 | grep brokers </li>
 
+</ul>
+
+<h3> How to create a topic? </h3>
+<p> We will use kafka-topic.sh script to create topics</p>
+<ul>
+	<li>creating topic : bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic myTopic --partitions 1 -- replication-factor 1</li>
+	<li>to see topic list : bin/kafka-topics.sh --bootstrap-server localhost:9092 --list</li>
+	<li>to know details about a topic : bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic myTopic</li>
+	<li></li>
+	<li></li>
+	<li></li>
+	
 </ul>
 
