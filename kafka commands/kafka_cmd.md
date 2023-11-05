@@ -38,7 +38,7 @@
 
 
 <h3>How to create consumer ? </h3>
-<p>we will use kafka-console-consumer.sh script</p>
+<p>we will use kafka-console-consumer.sh script.every consumer is associated with a consumer group</p>
 <ul>
 	<li>cmd : bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic myTopic --from-beginning </li>
 </ul>
